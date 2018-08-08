@@ -1,0 +1,25 @@
+{
+  "name": "testing",
+  "version": "0.0.1",
+  "description": "test",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhao-jun/testing.git"
+  },
+  "author": "zhao-jun",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zhao-jun/testing/issues"
+  },
+  "homepage": "https://github.com/zhao-jun/testing#readme",
+  "devDependencies": {
+    "chai": "^4.1.2"
+  }
+}

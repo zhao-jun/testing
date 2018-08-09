@@ -9,7 +9,7 @@
   "scripts": {
     "mocha": "mocha test/mocha --reporter nyan",
     "mochaHTML": "mocha test/mocha --reporter mochawesome --reporter-options reportDir=customReportDir,reportName=customReportName",
-    "istanbul": "istanbul cover node_modules/mocha/bin/_mocha test/mocha -- --reporter nyan"
+    "cover": "istanbul cover node_modules/mocha/bin/_mocha test/mocha -- --reporter nyan"
   },
   "repository": {
     "type": "git",

@@ -1,3 +1,4 @@
+// 单元测试
 module.exports = {
     add: (...args) => args.reduce((prev, curr) => prev + curr),
 

@@ -9,7 +9,8 @@
   "scripts": {
     "mocha": "mocha test/mocha --reporter nyan",
     "mochaHTML": "mocha test/mocha --reporter mochawesome --reporter-options reportDir=customReportDir,reportName=customReportName",
-    "cover": "istanbul cover node_modules/mocha/bin/_mocha test/mocha -- --reporter nyan"
+    "cover": "istanbul cover node_modules/mocha/bin/_mocha test/mocha -- --reporter nyan",
+    "benchmark": "node test/benchmark"
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,7 @@
   },
   "homepage": "https://github.com/zhao-jun/testing#readme",
   "devDependencies": {
+    "benchmark": "^2.1.4",
     "chai": "^4.1.2",
     "istanbul": "^0.4.5",
     "mocha": "^5.2.0",

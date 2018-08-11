@@ -10,7 +10,8 @@
     "mocha": "mocha test/mocha --reporter nyan",
     "mochaHTML": "mocha test/mocha --reporter mochawesome --reporter-options reportDir=customReportDir,reportName=customReportName",
     "cover": "istanbul cover node_modules/mocha/bin/_mocha test/mocha -- --reporter nyan",
-    "benchmark": "node test/benchmark"
+    "benchmark": "node test/benchmark",
+    "jest": "jest test/reactDemo.test.js"
   },
   "repository": {
     "type": "git",
@@ -27,10 +28,18 @@
     "react-dom": "^16.4.2"
   },
   "devDependencies": {
+    "babel-jest": "^23.4.2",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
     "benchmark": "^2.1.4",
     "chai": "^4.1.2",
+    "enzyme": "^3.4.1",
+    "enzyme-adapter-react-16": "^1.2.0",
     "istanbul": "^0.4.5",
+    "jest": "^23.5.0",
     "mocha": "^5.2.0",
-    "mochawesome": "^3.0.3"
+    "mochawesome": "^3.0.3",
+    "react-test-renderer": "^16.4.2"
   }
 }

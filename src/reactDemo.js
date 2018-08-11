@@ -47,3 +47,5 @@ class Demo extends PureComponent {
     )
   }
 }
+
+export default Demo;

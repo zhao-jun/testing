@@ -11,7 +11,8 @@
     "mochaHTML": "mocha test/mocha --reporter mochawesome --reporter-options reportDir=customReportDir,reportName=customReportName",
     "cover": "istanbul cover node_modules/mocha/bin/_mocha test/mocha -- --reporter nyan",
     "benchmark": "node test/benchmark",
-    "jest": "jest test/reactDemo.test.js --coverage"
+    "jest": "jest test/reactDemo.test.js --coverage",
+    "webdriver": "mocha test/webdriver --reporter nyan"
   },
   "repository": {
     "type": "git",
@@ -41,6 +42,7 @@
     "mocha": "^5.2.0",
     "mochawesome": "^3.0.3",
     "react-test-renderer": "^16.4.2",
+    "selenium-webdriver": "^4.0.0-alpha.1",
     "sinon": "^6.1.5"
   }
 }
